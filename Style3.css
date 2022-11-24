@@ -1,0 +1,40 @@
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c7caf;
+  --bggradient: linear-gradient(to bottom, #EB900A, #653C00);
+  --light-gray: rgba(256, 265, 265, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+
+header {
+  background: #ff512f;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+  background-color: #2dbd6e;
+}
+
+
+
+
